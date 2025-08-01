@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211461541519",
+    "project_id": "clean-arch-testing",
+    "storage_bucket": "clean-arch-testing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211461541519:android:1c2dd4bb2375c6f9f52afa",
+        "android_client_info": {
+          "package_name": "co.digitalexp.workshops.clean_arch_testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEqZHzbGeg_dfHVQqU7LyVMmG8HWyPW30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211461541519:android:a9a0a042270cdcd0f52afa",
+        "android_client_info": {
+          "package_name": "co.digitalexp.workshops.clean_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEqZHzbGeg_dfHVQqU7LyVMmG8HWyPW30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
