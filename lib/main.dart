@@ -1,10 +1,12 @@
 import 'package:clean_arch_testing/core/services/firebase_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'core/injection_dependencies/injection_container.dart' as di;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await FirebaseService.init();
+  di.init();
   runApp(ProviderScope(child: const MyApp()));
 }
 
